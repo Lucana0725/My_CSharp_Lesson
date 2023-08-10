@@ -1,0 +1,11 @@
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\bin\Debug\HelloCSharp.exe.config
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\bin\Debug\HelloCSharp.exe
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\bin\Debug\HelloCSharp.pdb
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.csproj.AssemblyReference.cache
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.Form1.resources
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.Properties.Resources.resources
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.csproj.GenerateResource.cache
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.csproj.CoreCompileInputs.cache
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.exe
+C:\Users\kurana\source\repos\MyLessons\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.pdb
