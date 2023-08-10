@@ -21,5 +21,10 @@ namespace HelloCSharp
         {
             labelMessage.Text = textBoxName.Text + "さん、こんにちは！";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            labelMessage.Text = "";
+        }
     }
 }
