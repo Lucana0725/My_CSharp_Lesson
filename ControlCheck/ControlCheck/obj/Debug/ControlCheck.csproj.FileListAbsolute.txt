@@ -1,0 +1,11 @@
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\bin\Debug\ControlCheck.exe.config
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\bin\Debug\ControlCheck.exe
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\bin\Debug\ControlCheck.pdb
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.csproj.AssemblyReference.cache
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.csproj.SuggestedBindingRedirects.cache
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.Form1.resources
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.Properties.Resources.resources
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.csproj.GenerateResource.cache
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.csproj.CoreCompileInputs.cache
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.exe
+C:\Users\kurana\source\repos\MyLessons\ControlCheck\ControlCheck\obj\Debug\ControlCheck.pdb
