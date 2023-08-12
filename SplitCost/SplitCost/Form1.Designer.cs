@@ -30,9 +30,9 @@
         {
             this.labelPrice = new System.Windows.Forms.Label();
             this.labelNumOfPeople = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxPrice = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxNumOfPeople = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.labelDividedPrice = new System.Windows.Forms.Label();
             this.labelOverPrice = new System.Windows.Forms.Label();
@@ -59,13 +59,13 @@
             this.labelNumOfPeople.TabIndex = 1;
             this.labelNumOfPeople.Text = "label2";
             // 
-            // textBox1
+            // textBoxPrice
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 19);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxPrice.Location = new System.Drawing.Point(32, 42);
+            this.textBoxPrice.Name = "textBoxPrice";
+            this.textBoxPrice.Size = new System.Drawing.Size(100, 19);
+            this.textBoxPrice.TabIndex = 2;
+            this.textBoxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -76,13 +76,13 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
             // 
-            // textBox2
+            // textBoxNumOfPeople
             // 
-            this.textBox2.Location = new System.Drawing.Point(228, 42);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 19);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxNumOfPeople.Location = new System.Drawing.Point(228, 42);
+            this.textBoxNumOfPeople.Name = "textBoxNumOfPeople";
+            this.textBoxNumOfPeople.Size = new System.Drawing.Size(100, 19);
+            this.textBoxNumOfPeople.TabIndex = 4;
+            this.textBoxNumOfPeople.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
             // 
@@ -137,6 +137,7 @@
             this.buttonForCalc.TabIndex = 10;
             this.buttonForCalc.Text = "button1";
             this.buttonForCalc.UseVisualStyleBackColor = true;
+            this.buttonForCalc.Click += new System.EventHandler(this.buttonForCalc_Click);
             // 
             // Form1
             // 
@@ -149,9 +150,9 @@
             this.Controls.Add(this.labelOverPrice);
             this.Controls.Add(this.labelDividedPrice);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBoxNumOfPeople);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxPrice);
             this.Controls.Add(this.labelNumOfPeople);
             this.Controls.Add(this.labelPrice);
             this.Name = "Form1";
@@ -166,9 +167,9 @@
 
         private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.Label labelNumOfPeople;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxPrice;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxNumOfPeople;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label labelDividedPrice;
         private System.Windows.Forms.Label labelOverPrice;
