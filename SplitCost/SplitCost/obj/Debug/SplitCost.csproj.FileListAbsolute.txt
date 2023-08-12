@@ -1,0 +1,11 @@
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\bin\Debug\SplitCost.exe.config
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\bin\Debug\SplitCost.exe
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\bin\Debug\SplitCost.pdb
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.csproj.AssemblyReference.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.csproj.SuggestedBindingRedirects.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.Form1.resources
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.Properties.Resources.resources
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.csproj.GenerateResource.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.csproj.CoreCompileInputs.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.exe
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\SplitCost\SplitCost\obj\Debug\SplitCost.pdb
