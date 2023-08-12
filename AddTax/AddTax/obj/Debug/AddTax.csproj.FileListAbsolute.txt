@@ -1,0 +1,11 @@
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\bin\Debug\AddTax.exe.config
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\bin\Debug\AddTax.exe
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\bin\Debug\AddTax.pdb
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.csproj.AssemblyReference.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.csproj.SuggestedBindingRedirects.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.Form1.resources
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.Properties.Resources.resources
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.csproj.GenerateResource.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.csproj.CoreCompileInputs.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.exe
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\AddTax\AddTax\obj\Debug\AddTax.pdb
