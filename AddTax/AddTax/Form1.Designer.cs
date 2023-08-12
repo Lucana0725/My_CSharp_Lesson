@@ -60,6 +60,7 @@
             this.textBoxMoney.Name = "textBoxMoney";
             this.textBoxMoney.Size = new System.Drawing.Size(100, 19);
             this.textBoxMoney.TabIndex = 2;
+            this.textBoxMoney.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -87,6 +88,7 @@
             this.buttonAddTax.TabIndex = 5;
             this.buttonAddTax.Text = "button1";
             this.buttonAddTax.UseVisualStyleBackColor = true;
+            this.buttonAddTax.Click += new System.EventHandler(this.buttonAddTax_Click);
             // 
             // Form1
             // 

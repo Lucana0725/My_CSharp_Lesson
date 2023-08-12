@@ -17,6 +17,7 @@ namespace AddTax
             InitializeComponent();
         }
 
+        //ウィンドウのデフォルト値
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = "金額";
@@ -24,6 +25,17 @@ namespace AddTax
             label3.Text = "円";
             labelAddTax.Text = "0円";
             buttonAddTax.Text = "消費税追加";
+        }
+
+        //ボタンをクリックしたときの処理
+        private void buttonAddTax_Click(object sender, EventArgs e)
+        {
+            int price = int.Parse(textBoxMoney.Text);  // 金額の入力値
+            const double tax = 0.08;  // 税率
+
+            double priceAddedTax = price * (1 + tax);  // 税込価格の計算
+            int taxInPrice = (int)priceAddedTax;
+            labelAddTax.Text = taxInPrice + " 円";
         }
     }
 }
