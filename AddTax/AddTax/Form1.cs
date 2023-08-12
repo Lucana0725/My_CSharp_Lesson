@@ -16,5 +16,14 @@ namespace AddTax
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label1.Text = "金額";
+            label2.Text = "税込み金額";
+            label3.Text = "円";
+            labelAddTax.Text = "0円";
+            buttonAddTax.Text = "消費税追加";
+        }
     }
 }
