@@ -30,12 +30,28 @@ namespace AddTax
         //ボタンをクリックしたときの処理
         private void buttonAddTax_Click(object sender, EventArgs e)
         {
+            
             int price = int.Parse(textBoxMoney.Text);  // 金額の入力値
             const double tax = 0.08;  // 税率
 
             double priceAddedTax = price * (1 + tax);  // 税込価格の計算
             int taxInPrice = (int)priceAddedTax;
             labelAddTax.Text = taxInPrice + " 円";
+            
+
+            // 模範解答
+            /*
+            int money;
+            double addTax;
+            const double tax = 0.08;
+
+            money = int.Parse(textBoxMoney.Text);
+            addTax = money;
+            addTax *= (1 + tax);
+            money = (int)addTax;
+
+            labelAddTax.Text = money + " 円";
+            */
         }
     }
 }
