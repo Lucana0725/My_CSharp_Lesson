@@ -36,23 +36,23 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxAttendanceM = new System.Windows.Forms.TextBox();
+            this.textBoxAttendanceP = new System.Windows.Forms.TextBox();
+            this.textBoxAttendanceE = new System.Windows.Forms.TextBox();
+            this.textBoxScoreM = new System.Windows.Forms.TextBox();
+            this.textBoxScoreP = new System.Windows.Forms.TextBox();
+            this.textBoxScoreE = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.labelResultM = new System.Windows.Forms.Label();
+            this.labelResultP = new System.Windows.Forms.Label();
+            this.labelResultE = new System.Windows.Forms.Label();
+            this.buttonJudge = new System.Windows.Forms.Button();
+            this.buttonReset = new System.Windows.Forms.Button();
+            this.labelCompAvgM = new System.Windows.Forms.Label();
+            this.labelCompAvgP = new System.Windows.Forms.Label();
+            this.labelCompAvgE = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -127,53 +127,53 @@
             this.label8.TabIndex = 7;
             this.label8.Text = "英語";
             // 
-            // textBox1
+            // textBoxAttendanceM
             // 
-            this.textBox1.Location = new System.Drawing.Point(113, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 19);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxAttendanceM.Location = new System.Drawing.Point(113, 61);
+            this.textBoxAttendanceM.Name = "textBoxAttendanceM";
+            this.textBoxAttendanceM.Size = new System.Drawing.Size(100, 19);
+            this.textBoxAttendanceM.TabIndex = 8;
+            this.textBoxAttendanceM.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox2
+            // textBoxAttendanceP
             // 
-            this.textBox2.Location = new System.Drawing.Point(113, 112);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 19);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxAttendanceP.Location = new System.Drawing.Point(113, 112);
+            this.textBoxAttendanceP.Name = "textBoxAttendanceP";
+            this.textBoxAttendanceP.Size = new System.Drawing.Size(100, 19);
+            this.textBoxAttendanceP.TabIndex = 9;
+            this.textBoxAttendanceP.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox3
+            // textBoxAttendanceE
             // 
-            this.textBox3.Location = new System.Drawing.Point(113, 167);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 19);
-            this.textBox3.TabIndex = 10;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxAttendanceE.Location = new System.Drawing.Point(113, 167);
+            this.textBoxAttendanceE.Name = "textBoxAttendanceE";
+            this.textBoxAttendanceE.Size = new System.Drawing.Size(100, 19);
+            this.textBoxAttendanceE.TabIndex = 10;
+            this.textBoxAttendanceE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox4
+            // textBoxScoreM
             // 
-            this.textBox4.Location = new System.Drawing.Point(302, 61);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 19);
-            this.textBox4.TabIndex = 11;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxScoreM.Location = new System.Drawing.Point(302, 61);
+            this.textBoxScoreM.Name = "textBoxScoreM";
+            this.textBoxScoreM.Size = new System.Drawing.Size(100, 19);
+            this.textBoxScoreM.TabIndex = 11;
+            this.textBoxScoreM.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox5
+            // textBoxScoreP
             // 
-            this.textBox5.Location = new System.Drawing.Point(302, 112);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 19);
-            this.textBox5.TabIndex = 12;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxScoreP.Location = new System.Drawing.Point(302, 112);
+            this.textBoxScoreP.Name = "textBoxScoreP";
+            this.textBoxScoreP.Size = new System.Drawing.Size(100, 19);
+            this.textBoxScoreP.TabIndex = 12;
+            this.textBoxScoreP.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox6
+            // textBoxScoreE
             // 
-            this.textBox6.Location = new System.Drawing.Point(302, 167);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 19);
-            this.textBox6.TabIndex = 13;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxScoreE.Location = new System.Drawing.Point(302, 167);
+            this.textBoxScoreE.Name = "textBoxScoreE";
+            this.textBoxScoreE.Size = new System.Drawing.Size(100, 19);
+            this.textBoxScoreE.TabIndex = 13;
+            this.textBoxScoreE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label9
             // 
@@ -202,100 +202,100 @@
             this.label11.TabIndex = 16;
             this.label11.Text = "%";
             // 
-            // label12
+            // labelResultM
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(444, 68);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 12);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "label12";
+            this.labelResultM.AutoSize = true;
+            this.labelResultM.Location = new System.Drawing.Point(444, 68);
+            this.labelResultM.Name = "labelResultM";
+            this.labelResultM.Size = new System.Drawing.Size(41, 12);
+            this.labelResultM.TabIndex = 17;
+            this.labelResultM.Text = "label12";
             // 
-            // label13
+            // labelResultP
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(444, 119);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 12);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "label13";
+            this.labelResultP.AutoSize = true;
+            this.labelResultP.Location = new System.Drawing.Point(444, 119);
+            this.labelResultP.Name = "labelResultP";
+            this.labelResultP.Size = new System.Drawing.Size(41, 12);
+            this.labelResultP.TabIndex = 18;
+            this.labelResultP.Text = "label13";
             // 
-            // label14
+            // labelResultE
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(444, 174);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 12);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "label14";
+            this.labelResultE.AutoSize = true;
+            this.labelResultE.Location = new System.Drawing.Point(444, 174);
+            this.labelResultE.Name = "labelResultE";
+            this.labelResultE.Size = new System.Drawing.Size(41, 12);
+            this.labelResultE.TabIndex = 19;
+            this.labelResultE.Text = "label14";
             // 
-            // button1
+            // buttonJudge
             // 
-            this.button1.Location = new System.Drawing.Point(269, 237);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "判定";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonJudge.Location = new System.Drawing.Point(269, 237);
+            this.buttonJudge.Name = "buttonJudge";
+            this.buttonJudge.Size = new System.Drawing.Size(75, 23);
+            this.buttonJudge.TabIndex = 20;
+            this.buttonJudge.Text = "判定";
+            this.buttonJudge.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // buttonReset
             // 
-            this.button2.Location = new System.Drawing.Point(375, 237);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "リセット";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonReset.Location = new System.Drawing.Point(375, 237);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(75, 23);
+            this.buttonReset.TabIndex = 21;
+            this.buttonReset.Text = "リセット";
+            this.buttonReset.UseVisualStyleBackColor = true;
             // 
-            // label15
+            // labelCompAvgM
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(539, 68);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 12);
-            this.label15.TabIndex = 22;
-            this.label15.Text = "label15";
+            this.labelCompAvgM.AutoSize = true;
+            this.labelCompAvgM.Location = new System.Drawing.Point(539, 68);
+            this.labelCompAvgM.Name = "labelCompAvgM";
+            this.labelCompAvgM.Size = new System.Drawing.Size(41, 12);
+            this.labelCompAvgM.TabIndex = 22;
+            this.labelCompAvgM.Text = "label15";
             // 
-            // label16
+            // labelCompAvgP
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(539, 119);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 12);
-            this.label16.TabIndex = 23;
-            this.label16.Text = "label16";
+            this.labelCompAvgP.AutoSize = true;
+            this.labelCompAvgP.Location = new System.Drawing.Point(539, 119);
+            this.labelCompAvgP.Name = "labelCompAvgP";
+            this.labelCompAvgP.Size = new System.Drawing.Size(41, 12);
+            this.labelCompAvgP.TabIndex = 23;
+            this.labelCompAvgP.Text = "label16";
             // 
-            // label17
+            // labelCompAvgE
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(539, 174);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 12);
-            this.label17.TabIndex = 24;
-            this.label17.Text = "label17";
+            this.labelCompAvgE.AutoSize = true;
+            this.labelCompAvgE.Location = new System.Drawing.Point(539, 174);
+            this.labelCompAvgE.Name = "labelCompAvgE";
+            this.labelCompAvgE.Size = new System.Drawing.Size(41, 12);
+            this.labelCompAvgE.TabIndex = 24;
+            this.labelCompAvgE.Text = "label17";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(703, 288);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.labelCompAvgE);
+            this.Controls.Add(this.labelCompAvgP);
+            this.Controls.Add(this.labelCompAvgM);
+            this.Controls.Add(this.buttonReset);
+            this.Controls.Add(this.buttonJudge);
+            this.Controls.Add(this.labelResultE);
+            this.Controls.Add(this.labelResultP);
+            this.Controls.Add(this.labelResultM);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxScoreE);
+            this.Controls.Add(this.textBoxScoreP);
+            this.Controls.Add(this.textBoxScoreM);
+            this.Controls.Add(this.textBoxAttendanceE);
+            this.Controls.Add(this.textBoxAttendanceP);
+            this.Controls.Add(this.textBoxAttendanceM);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -321,23 +321,23 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxAttendanceM;
+        private System.Windows.Forms.TextBox textBoxAttendanceP;
+        private System.Windows.Forms.TextBox textBoxAttendanceE;
+        private System.Windows.Forms.TextBox textBoxScoreM;
+        private System.Windows.Forms.TextBox textBoxScoreP;
+        private System.Windows.Forms.TextBox textBoxScoreE;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label labelResultM;
+        private System.Windows.Forms.Label labelResultP;
+        private System.Windows.Forms.Label labelResultE;
+        private System.Windows.Forms.Button buttonJudge;
+        private System.Windows.Forms.Button buttonReset;
+        private System.Windows.Forms.Label labelCompAvgM;
+        private System.Windows.Forms.Label labelCompAvgP;
+        private System.Windows.Forms.Label labelCompAvgE;
     }
 }
 
