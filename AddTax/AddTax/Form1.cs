@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,14 +31,16 @@ namespace AddTax
         //ボタンをクリックしたときの処理
         private void buttonAddTax_Click(object sender, EventArgs e)
         {
-            
+            // 自分の回答
+            /*
             int price = int.Parse(textBoxMoney.Text);  // 金額の入力値
             const double tax = 0.08;  // 税率
 
             double priceAddedTax = price * (1 + tax);  // 税込価格の計算
             int taxInPrice = (int)priceAddedTax;
             labelAddTax.Text = taxInPrice + " 円";
-            
+            */
+
 
             // 模範解答
             /*
@@ -52,6 +55,21 @@ namespace AddTax
 
             labelAddTax.Text = money + " 円";
             */
+
+            // 模範修正
+            int money;
+
+            money = int.Parse(textBoxMoney.Text);
+            money = addTax(money);
+            labelAddTax.Text = money + "円";
+
+        }
+
+        // 税込金額算出処理
+        private int addTax(int m)
+        {
+            const double tax = 0.08;
+            return (int)(m * (1 + tax));
         }
     }
 }
