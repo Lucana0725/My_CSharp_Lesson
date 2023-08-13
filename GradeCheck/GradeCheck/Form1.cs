@@ -76,7 +76,7 @@ namespace GradeCheck
         // ※上のtextToValueをオーバーロードしている(仮引数double val ←→ int val)
         private void textToValue(string text, out int val)
         {
-            if (int.TryParse(text, out val))
+            if (int.TryParse(text, out val) == false)
             {
                 val = -1;
             }
@@ -92,32 +92,32 @@ namespace GradeCheck
 
             // エラー条件の洗い出し
             if (Attendance < 0.0 || Attendance > 100.0 || score < 0 || score > 100)
-            {
-                result = "エラー";
-            }
+            
+                result = "error";
+            
             else if (Attendance >= 80.0)
             {
                 if (score >= 80)
-                {
+                
                     result = "A判定";
-                }
+                
                 else if (score >= 70)
-                {
+                
                     result = "B判定";
-                }
+                
                 else if(score >= 60)
-                {
+                
                     result = "C判定";
-                }
+                
                 else
-                {
+                
                     result = "不合格";
-                }
+                
             }
             else
-            {
+            
                 result = "不合格";
-            }
+            
             return result;
         }
 
