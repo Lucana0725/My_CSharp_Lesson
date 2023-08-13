@@ -160,5 +160,27 @@ namespace GradeCheck
 
         }
 
+        // リセットボタンを押したときの処理
+        private void buttonReset_Click(object sender, EventArgs e)
+        {
+            // 出席率を0.0に
+            textBoxAttendanceM.Text = "0.0";
+            textBoxAttendanceP.Text = "0.0";
+            textBoxAttendanceE.Text = "0.0";
+
+            // 得点を0.0に
+            textBoxScoreM.Text = "0.0";
+            textBoxScoreP.Text = "0.0";
+            textBoxScoreE.Text = "0.0";
+
+            // ラベルを空文字に
+            labelResultM.Text = "";
+            labelResultP.Text = "";
+            labelResultE.Text = "";
+            labelCompAvgM.Text = "";
+            labelCompAvgP.Text = "";
+            labelCompAvgE.Text = "";
+
+        }
     }
 }
