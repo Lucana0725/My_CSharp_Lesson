@@ -58,30 +58,55 @@ namespace AddTax
 
 
 
-        //(模範解答の修正分)
+        ////(模範解答の修正分)1
+        ////ボタンをクリックしたときの処理
+        //private void buttonAddTax_Click(object sender, EventArgs e)
+        //{
+        //    int money;
+        //    try
+        //    {
+        //        money = int.Parse(textBoxMoney.Text);
+        //        money = addTax(money);
+        //        labelAddTax.Text = money + "円";
+        //    }
+        //    catch (FormatException ex)
+        //    {
+        //        labelAddTax.Text = ex.Message;
+        //    }
+
+        //    //元の処理。これらが、例外が発生しうるということでtryの中に移動した。
+        //    //money = int.Parse(textBoxMoney.Text);
+        //    //money = addTax(money);
+        //    //labelAddTax.Text = money + "円";
+
+        //}
+
+        //// 税込金額算出処理
+        //private int addTax(int m)
+        //{
+        //    const double tax = 0.08;
+        //    return (int)(m * (1 + tax));
+        //}
+
+
+
+        //(模範解答の修正分)2
         //ボタンをクリックしたときの処理
         private void buttonAddTax_Click(object sender, EventArgs e)
         {
             int money;
-            try
+
+            if (int.TryParse(textBoxMoney.Text, out money))
             {
-                money = int.Parse(textBoxMoney.Text);
                 money = addTax(money);
-                labelAddTax.Text = money + "円";
+                labelAddTax.Text = money + " 円";
             }
-            catch (Exception ex)
+            else
             {
-                labelAddTax.Text = ex.Message;
+                labelAddTax.Text = "入力文字列の形式が正しくありません";
             }
-
-            //元の処理。これらが、例外が発生しうるということでtryの中に移動した。
-            //money = int.Parse(textBoxMoney.Text);
-            //money = addTax(money);
-            //labelAddTax.Text = money + "円";
-
         }
 
-        // 税込金額算出処理
         private int addTax(int m)
         {
             const double tax = 0.08;

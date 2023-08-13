@@ -82,7 +82,7 @@
             // 
             // buttonAddTax
             // 
-            this.buttonAddTax.Location = new System.Drawing.Point(154, 95);
+            this.buttonAddTax.Location = new System.Drawing.Point(209, 96);
             this.buttonAddTax.Name = "buttonAddTax";
             this.buttonAddTax.Size = new System.Drawing.Size(75, 23);
             this.buttonAddTax.TabIndex = 5;
@@ -94,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 142);
+            this.ClientSize = new System.Drawing.Size(480, 142);
             this.Controls.Add(this.buttonAddTax);
             this.Controls.Add(this.labelAddTax);
             this.Controls.Add(this.label3);
