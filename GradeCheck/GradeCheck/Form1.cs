@@ -30,5 +30,35 @@ namespace GradeCheck
             labelCompAvgP.Text = "";
             labelCompAvgE.Text = "";
         }
+
+        // 変換ボタンをクリックしたときの処理
+        private void buttonJudge_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        // テキストを浮動小数点値に変換するメソッド
+        // (仮引数)text : 変換する文字列  val : 変換した浮動小数点値
+        // (返却値(return))なし
+        private void textToValue(string text, double val)
+        {
+            if (double.TryParse(text, out val) == false)
+            {
+                val = -1.0;
+            }
+        }
+
+        // テキストを整数値に変換するメソッド
+        // (仮引数)text : 変換する文字列  val : 変換した整数値
+        // returnなし
+        // ※上のtextToValueをオーバーロードしている(仮引数double val ←→ int val)
+        private void textToValue(string text, out int val)
+        {
+            if (int.TryParse(text, out val))
+            {
+                val = -1;
+            }
+        }
     }
 }
