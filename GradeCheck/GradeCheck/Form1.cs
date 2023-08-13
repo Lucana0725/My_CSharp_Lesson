@@ -35,14 +35,34 @@ namespace GradeCheck
         // 変換ボタンをクリックしたときの処理
         private void buttonJudge_Click(object sender, EventArgs e)
         {
+            // 出席率を浮動小数点値に変換
+            double AttendanceM, AttendanceP, AttendanceE;
+            textToValue(textBoxAttendanceM.Text, out AttendanceM);
+            textToValue(textBoxAttendanceP.Text, out AttendanceP);
+            textToValue(textBoxAttendanceE.Text, out AttendanceE);
 
+            // 点数を整数値に変換
+            int scoreM, scoreP, scoreE;
+            textToValue(textBoxScoreM.Text, out scoreM);
+            textToValue(textBoxScoreP.Text, out scoreP);
+            textToValue(textBoxScoreE.Text, out scoreE);
+
+            // 点数を判定する
+            labelResultM.Text = scoreJudge(AttendanceM, scoreM);
+            labelResultP.Text = scoreJudge(AttendanceP, scoreP);
+            labelResultE.Text = scoreJudge(AttendanceE, scoreE);
+
+            // 平均値以上か未満かを判定する
+            labelCompAvgM.Text = averageJudge(scoreM, 1);
+            labelCompAvgP.Text = averageJudge(scoreP, 2);
+            labelCompAvgE.Text = averageJudge(scoreE, 3);
         }
 
 
         // テキストを浮動小数点値に変換するメソッド
         // (仮引数)text : 変換する文字列  val : 変換した浮動小数点値
         // (返却値(return))なし
-        private void textToValue(string text, double val)
+        private void textToValue(string text, out double val)
         {
             if (double.TryParse(text, out val) == false)
             {
