@@ -2,3 +2,7 @@ SplitCost/.vs/SplitCost/v17/*.suo
 /*/.vs/
 /*/bin/
 /*/obj/
+/*/*/Form1.cs
+/*/*/bin/*
+/*/*/obj/Debug/*.exe
+/*/*/obj/Debug/*.pdb
