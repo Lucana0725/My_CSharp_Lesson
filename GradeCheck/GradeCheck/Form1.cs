@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -60,5 +61,46 @@ namespace GradeCheck
                 val = -1;
             }
         }
+
+
+        // 成績判定メソッド
+        // (仮引数) Attendance : 出席率  score : 得点
+        // return : 判定結果
+        private string scoreJudge(double Attendance, int score)
+        {
+            string result;  // 結果
+
+            // エラー条件の洗い出し
+            if (Attendance < 0.0 || Attendance > 100.0 || score < 0 || score > 100)
+            {
+                result = "エラー";
+            }
+            else if (Attendance >= 80.0)
+            {
+                if (score >= 80)
+                {
+                    result = "A判定";
+                }
+                else if (score >= 70)
+                {
+                    result = "B判定";
+                }
+                else if(score >= 60)
+                {
+                    result = "C判定";
+                }
+                else
+                {
+                    result = "不合格";
+                }
+            }
+            else
+            {
+                result = "不合格";
+            }
+            return result;
+        }
+
+
     }
 }
