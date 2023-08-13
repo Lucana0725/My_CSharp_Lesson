@@ -1,1 +1,4 @@
 SplitCost/.vs/SplitCost/v17/*.suo
+/*/.vs/
+/*/bin/
+/*/obj/
