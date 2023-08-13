@@ -102,5 +102,43 @@ namespace GradeCheck
         }
 
 
+        // 平均点判定メソッド
+        // (仮引数) score : 得点,  subject : 科目(1:数学, 2:物理, 3:英語)
+        // return : 判定結果
+        private string averageJudge(int score, int subject)
+        {
+            string result;  // 結果
+            int average;  //平均値
+
+            // 得点が0未満または100を超える場合はエラーに
+            if (score < 0 || score > 100)
+                return "エラー";
+
+            // 平均点との比較
+            switch (subject)
+            {
+                case 1:
+                    average = 73;  // 数学の平均点は73点
+                    break;
+                case 2:
+                    average = 65;  // 物理の平均点は65点
+                    break;
+                case 3:
+                    average = 77;
+                    break;
+                default:
+                    return "エラー";
+            }
+
+            // 実際に得点が平均値と比較してどうかをみる実行部分
+            if (score >= average)
+                result = "平均点以上";
+            else
+                result = "平均点未満";
+
+            return result;  // 結果を返す
+
+        }
+
     }
 }
