@@ -1,0 +1,11 @@
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\bin\Debug\GradeCheck.exe.config
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\bin\Debug\GradeCheck.exe
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\bin\Debug\GradeCheck.pdb
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.csproj.AssemblyReference.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.csproj.SuggestedBindingRedirects.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.Form1.resources
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.Properties.Resources.resources
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.csproj.GenerateResource.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.csproj.CoreCompileInputs.cache
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.exe
+C:\Users\luca_\Desktop\Programming\C#\ゴールから始めるC#\My_CSharp_Lesson\GradeCheck\GradeCheck\obj\Debug\GradeCheck.pdb
